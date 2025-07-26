@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2f2626;
+  font-family: Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;        /* ✅ Centrado vertical */
+  padding: 40px 20px;         /* ✅ Margen superior/inferior cómodo */
+}
+
+.card {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;           /* ✅ Limita altura total para no estirarse demasiado */
+}
+
+.logo img {
+  width: 300px;
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 1.3em;
+  color: #ccc;
+  margin-bottom: 35px;
+}
+
+.download-btn {
+  background: orange;
+  color: white;
+  padding: 18px 40px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 0px 20px rgba(255, 165, 0, 0.6);
+  display: inline-block;
+  font-size: 1.1em;
+  transition: transform 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+.icons {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons a:focus {
+  outline: none;
+}
+
+.icons img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s ease;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive para móviles */
+@media screen and (max-width: 500px) {
+  .logo img {
+    width: 200px;
+  }
+
+  .name {
+    font-size: 1.5em;
+  }
+
+  .role {
+    font-size: 1em;
+  }
+
+  .download-btn {
+    font-size: 1em;
+    padding: 15px 30px;
+  }
+
+  .icons img {
+    width: 40px;
+    height: 40px;
+  }
+}
