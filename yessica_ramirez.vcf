@@ -2,5 +2,7 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Yessica Ramírez
 TITLE:Especialista de Desarollo Comercial VE
-TEL;TYPE=CELL:3117662869
+TEL;TYPE=CELL:+573117662869
+EMAIL:Yessica@ergenia.com
+ADR;TYPE=WORK:;;Oficina 305, República de Colombia, Calle 117 #6a-60, Edificio Flormorado Empresarial, Barrio Usaquén;Bogotá DC;;110111;CO
 END:VCARD
